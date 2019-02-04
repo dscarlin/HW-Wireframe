@@ -22,7 +22,8 @@ header, nav, section, aside, footer{
 section{
     float: left;
     width: 495px;
-    margin-bottom:20px
+    margin-bottom:20px;
+    padding-bottom:0px;
 }
 
 article {
@@ -48,7 +49,7 @@ aside {
     width: 445px;
     margin-left: 20px;
     float: left;
-    height: 317.78px;
+    height: 287.78px;
     margin-bottom:20px;
 }
 footer{
