@@ -18,6 +18,9 @@ header, nav, section, aside, footer{
     padding: 30px 0px;
 }
 
+header, footer, nav {
+    padding-right: 76px;
+}
 
 section{
     float: left;
@@ -30,19 +33,31 @@ article {
     color: #ebebeb;
     background: #777;
     margin: 20px 10px 10px;
-    padding: 20px 20px 10px;
+    padding: 20px 25px 10px 20px;
     overflow: auto;
 }
 
-h1, p{
+h4, p{
     color: #777;
     background: #ebebeb;
     margin:10px 0px 0px;
     padding: 20px 0px;
 }
 
-h1{
+h4{
     margin-top: 20px;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2, h3 {
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0
 }
 
 aside {
@@ -52,6 +67,7 @@ aside {
     height: 287.78px;
     margin-bottom:20px;
 }
+
 footer{
     clear:both
 }
@@ -59,7 +75,7 @@ footer{
 
 
  
- 
+  
 
 
  
